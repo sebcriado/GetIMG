@@ -1,0 +1,20 @@
+{
+    "name": "GetIMG",
+    "version": "0.1.0",
+    "description": "This extension helps you to download all the images from a google page in a click.",
+    "background" : {
+        "service_worker" : "background.js"
+    },
+    "permissions": [
+        "storage",
+        "downloads",
+        "activeTab",
+        "declarativeContent",
+        "scripting"
+    ],
+    "action":{
+        "default_title": "GetIMG",
+        "default_popup": "popup.html"
+    },
+    "manifest_version": 3
+}
